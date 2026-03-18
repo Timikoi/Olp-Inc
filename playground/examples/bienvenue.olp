@@ -1,0 +1,10 @@
+SFG <Arial>
+WLO = blue
+
+XTOI = "Bienvenue sur Olp Inc."
+XTOI = "Voici un exemple simple."
+
+AERT = green "Clique ici" :: ((https://example.com))
+
+LBG
+XTOI = "Écris ton nom :"
