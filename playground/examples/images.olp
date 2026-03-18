@@ -1,0 +1,10 @@
+SFG <Verdana>
+WLO = #222
+
+XTOI = "Exemple d'images avec TOLP"
+
+TOLP = "logo.png" taille:: C @local@
+TOLP = "photo.jpg" taille:: A @local@
+
+XTOI = "Fond basé sur la dernière image :"
+WLO = C
