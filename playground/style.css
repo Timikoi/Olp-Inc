@@ -1,1 +1,94 @@
+body {
+  margin: 0;
+  background: #111;
+  color: white;
+  font-family: Arial;
+}
 
+header {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  border-bottom: 2px solid #444;
+}
+
+#container {
+  display: flex;
+  height: calc(100vh - 100px);
+}
+
+#editor-panel {
+  width: 50%;
+  background: #1a1a1a;
+  border-right: 2px solid #333;
+  display: flex;
+  flex-direction: column;
+}
+
+#editor-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #222;
+  border-bottom: 1px solid #333;
+}
+
+#editor {
+  flex: 1;
+  background: #111;
+  color: #0f0;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+#preview-panel {
+  width: 50%;
+  background: white;
+}
+
+#preview {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+button {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #666;
+}
+
+#examples-menu {
+  background: #222;
+  padding: 10px;
+  border-top: 1px solid #333;
+}
+
+.hidden {
+  display: none;
+}
+
+#examples-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+#examples-menu li {
+  padding: 6px;
+  cursor: pointer;
+}
+
+#examples-menu li:hover {
+  background: #333;
+}
