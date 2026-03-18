@@ -1,0 +1,10 @@
+SFG <Courier New>
+WLO = white
+
+XTOI = "Exemple de boutons"
+
+AERT = red "Alerte"
+AERT = blue "Site Web" :: ((https://google.com))
+AATR ((https://example.com/fichier.zip)) "Télécharger"
+
+SER "Fin de l'exemple."
