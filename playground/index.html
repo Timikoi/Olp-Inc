@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Olp Playground — Olp Inc.</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<header>
+  <h1>Olp Playground</h1>
+  <p>Éditeur officiel du langage Olp</p>
+</header>
+
+<div id="container">
+
+  <div id="editor-panel">
+    <div id="editor-header">
+      <span>Code Olp</span>
+      <button id="runBtn">▶ Exécuter</button>
+      <button id="exampleBtn">📁 Exemples</button>
+    </div>
+
+    <textarea id="editor" spellcheck="false"></textarea>
+
+    <div id="examples-menu" class="hidden">
+      <h3>Exemples Olp</h3>
+      <ul>
+        <li onclick="loadExample('bienvenue')">Bienvenue</li>
+        <li onclick="loadExample('images')">Images</li>
+        <li onclick="loadExample('boutons')">Boutons</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="preview-panel">
+    <iframe id="preview"></iframe>
+  </div>
+
+</div>
+
+<script src="olp.js"></script>
+
+</body>
+</html>
